@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAGINA WEB</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <h1>Promedio,Mediana y Moda</h1>
+        <p>
+          Podràs calcular promedio, mediana y moda de los valores que eliges
+        </p>
+      </div>
+
+      <section>
+        <nav>
+          <ol class="header___button">
+            <li><a href="descuentos.html">Descuentos</a></li>
+            <li><a href="descuentos.html">Descuentos</a></li>
+            <li>
+              <a href="promediomedianamoda.html">Promedio, mediana y moda</a>
+            </li>
+          </ol>
+        </nav>
+      </section>
+    </header>
+    <section class="main__container">
+      <section class=main__container-card">
+      <h2>Calcula tu promedio:</h2>
+      <form>
+        <label for="inputPromedio"> Ingresa tus datos: </label>
+        <input id="inputPromedio" type="text" placeholder=" Ej: 20,10,50" />
+      </form>
+      <button type="button" onclick="calcularMediaAritmetica1()"></button>
+      <p id="resultadoMedia"></p>
+    </section>
+
+    <section class="main__container-card">
+      <h2>Calcula tu Mediana:</h2>
+      <form>
+        <label for="idinputMediana">Ingresa tus datos:</label>
+        <input id="inputMediana" type="text" placeholder="Ej: 20, 10,50" />
+      </form>
+      <button type="button" onclick="calcularMediana">
+        Calcular Mediana
+      </button>
+      <p id="resultadoMediana"></p>
+    </section>
+
+    <section class="main___container-card">
+      <section class="main_container-card">
+        <h2>Calcula tu moda:</h2>
+
+        <form>
+          <label for="inputModa">Ingresa tus datos: </label>
+
+          <input id="inputModa" type="text" placeholder="E1:20, 10, 50" />
+        </form>
+
+        <button type="button" onclick="calcularModa()">Calcular la moda</button>
+        <p id="restultadoModa"></p>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <p>Desarrollado por Jerònimo Jaramillo Rivera</p>
+
+      <br />
+    </footer>
+
+    <script src="promedio.js"></script>
+    <script src="mediana.js"></script>
+    <script src="moda.js"></script>
+  </body>
+</html>
