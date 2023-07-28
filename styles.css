@@ -102,3 +102,9 @@ nav .header__button a {
   padding: 5px;
   margin-right: 5px;
 }
+.header__container img {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 10px;
+}
